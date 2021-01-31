@@ -15,8 +15,7 @@ It was similar to this: https://codesandbox.io/s/6w8o2xx6lz
 
 ## Solution
 
-You need to use createPortal from 'react-dom'. (https://github.com/atlassian/react-beautiful-dnd/issues/128)
-
+You need to use createPortal from 'react-dom' (https://github.com/atlassian/react-beautiful-dnd/issues/128).
 Solution from the comment of @renaudtertrais:
 ```jsx
 import { useEffect, useRef } from 'react';
