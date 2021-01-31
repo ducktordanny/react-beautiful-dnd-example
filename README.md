@@ -1,4 +1,4 @@
-# React Beautiful Dnd
+# React Beautiful Dnd Example
 
 > When I wanted to use this library I had a problem when it was in a fixed and transformed sidebar so I thought it would be helpful if I publish it... Furthermore I found a link where is an example but that is for class component, but I needed it for functional component so this example is made with a functional component.
 
@@ -15,8 +15,7 @@ It was similar to this: https://codesandbox.io/s/6w8o2xx6lz
 
 ## Solution
 
-You need to use createPortal from 'react-dom' (https://github.com/atlassian/react-beautiful-dnd/issues/128).
-Solution from the comment of @renaudtertrais:
+You need to use createPortal from 'react-dom' (https://github.com/atlassian/react-beautiful-dnd/issues/128). Solution from the comment of @renaudtertrais:
 ```jsx
 import { useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
