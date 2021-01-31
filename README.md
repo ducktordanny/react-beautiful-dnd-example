@@ -19,6 +19,10 @@ You need to use createPortal from 'react-dom'. (https://github.com/atlassian/rea
 
 Solution from the comment of @renaudtertrais:
 ```jsx
+import { useEffect, useRef } from 'react';
+import { createPortal } from 'react-dom';
+import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
+
 const useDraggableInPortal = () => {
     const self = useRef({}).current;
 
