@@ -12,3 +12,10 @@
 It was similar to this: https://codesandbox.io/s/6w8o2xx6lz
 ![The Issue's gif](./issue.gif)
 (Here is its github issue link: https://github.com/atlassian/react-beautiful-dnd/issues/485)
+
+## Solution
+
+You need to use createPortal from 'react-dom'. (https://github.com/atlassian/react-beautiful-dnd/issues/128)
+You can find my solution/example in the src folder in the App.js file.
+
+I hope I could help.
